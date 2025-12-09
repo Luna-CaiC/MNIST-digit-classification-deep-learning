@@ -175,25 +175,9 @@ model.fit(x_train, y_train, epochs=10, validation_split=0.2)
 - NumPy 1.26.0+
 - Matplotlib 3.8.4+
 
-## Performance Benchmarks
-- **Training Time**: 
-  - MLP: ~2-3 minutes
-  - Basic CNN: ~5-7 minutes
-  - Deep CNN: ~10-15 minutes
-- **Inference Speed**: Real-time capable on modern hardware
-- **Model Size**: Compact enough for edge deployment
-
-## License
-This project is part of an academic case study for Advanced Data Mining coursework.
 
 ## Acknowledgments
 - MNIST dataset creators (Yann LeCun et al.)
 - TensorFlow/Keras development team
 - Academic institution for project framework
 
-## Contact & Support
-For questions or contributions, please refer to the course materials or contact the project maintainer.
-
----
-
-**Note**: This implementation serves as a foundational example for image classification tasks and demonstrates the progression from simple to complex neural network architectures.
